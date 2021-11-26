@@ -1,0 +1,67 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url(./fonts/ProximaNovaRegular.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url(./fonts/ProximaNovaBold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: SourceSansPro;
+    src: url(./fonts/SourceSansPro-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: SourceSansPro;
+    src: url(./fonts/SourceSansPro-Bold.ttf);
+    font-weight: bold;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply rounded-full px-3 py-2 uppercase text-xs font-bold cursor-pointer
+}
+
+.letters {
+    @apply uppercase text-white text-xs absolute ml-n26 font-body font-bold tracking-widest
+}
+
+.numbers {
+    @apply text-white text-26 absolute font-special mt-2.5 ml-n26 
+}
+
+.navigation {
+    @apply ml-3.5 hover:text-primary
+}
+
+.main_letters {
+    @apply leading-25 text-main_color inline-block
+}
+
+.img_cont {
+    @apply mx-auto h-n450
+}
+
+.img_size {
+    @apply  h-n200 object-cover
+}
+
+.img_p1 {
+    @apply font-bold text-lg leading-5 text-white w-n190 mt-5
+}
+
+.img_p2 {
+    @apply text-white leading-25 mt-3
+}
+
+.img_a {
+    @apply flex text-white text-sm font-bold
+}
